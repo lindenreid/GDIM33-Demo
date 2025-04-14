@@ -3,9 +3,10 @@
 You can [play the Herne 33 demo on Itch.io here](https://outofmanna.itch.io/herne-33).
 ## Scene guide
 This list of Scenes in the project will be updated whenever new lecture demos are added. This repository is NOT your in-class activity; it is the demo that went along with the lecture!
-- Herne 33 demo: Vertical Slice project demo.
+- Herne 33 demo: Vertical Slice project demo + W3 lecture demo.
 - W2 Demo: W2 lecture demo.
 - W2 Activty Answer: Possible solutions for W2 in-class activity.
+- W3 Activty Answer: Possible solutions for W3 in-class activity.
 ## Open-source assets
 - [Classic skybox](https://assetstore.unity.com/packages/2d/textures-materials/sky/classic-skybox-24923) - skybox
 - [elbolilloduro](https://elbolilloduro.itch.io/) - various asset packs used for environment models, characters, & textures
