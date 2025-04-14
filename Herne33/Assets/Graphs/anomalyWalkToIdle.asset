@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: anomalyWalkToIdle
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Walk
+      To Idle","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":300.0,"y":-90.0},"guid":"8def642f-2193-41b8-af2d-e2e42e1da4ed","$version":"A","$type":"Unity.VisualScripting.TriggerStateTransition","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"maxWalkTime","$type":"System.String"},"object":null},"position":{"x":-324.0,"y":129.0},"guid":"49aabd86-fbe2-439b-a645-460e90580f6a","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"numeric":true,"defaultValues":{"b":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-95.0,"y":-26.0},"guid":"6f624cd7-1742-4fb1-a9c8-159a0d8b6896","$version":"A","$type":"Unity.VisualScripting.GreaterOrEqual","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"currentTimeInState","$type":"System.String"},"object":null},"position":{"x":-392.0,"y":-32.0},"guid":"b9642ddb-e6a7-4c25-b9ff-6342903f69b8","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"15"},{"coroutine":false,"defaultValues":{},"position":{"x":-381.0,"y":-213.0},"guid":"7423311a-2920-4a1c-b8b4-fc85f5e305e2","$version":"A","$type":"Unity.VisualScripting.Update","$id":"17"},{"defaultValues":{},"position":{"x":131.0,"y":-142.0},"guid":"291997e1-a22a-4c2b-ae21-39cd8a427702","$version":"A","$type":"Unity.VisualScripting.If","$id":"19"},{"sourceUnit":{"$ref":"19"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"9"},"destinationKey":"trigger","guid":"68cbf663-715b-47ce-a8b6-ed668c85b0b1","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"2c116a5d-6ec5-42a4-9d15-3b0bc4ea4f9d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"b","guid":"da39a974-fea1-4979-9580-2d1dd615d3ee","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"a","guid":"15e36af6-725d-41b3-961f-baac84a38437","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"comparison","destinationUnit":{"$ref":"19"},"destinationKey":"condition","guid":"307a4aba-f8b5-42ca-a6bf-fe415e5468df","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-492.0,"yMin":-280.0,"xMax":492.0,"yMax":279.0},"label":"check
+      if max time in state elapsed","comment":null,"color":{"r":0.04870415,"g":1.0,"b":0.0,"a":1.0},"guid":"2a9c9636-39cd-49b6-8329-54f890d29613","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

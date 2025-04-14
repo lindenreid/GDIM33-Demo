@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7caa393d7056641538970382a14f7d1e, type: 3}
+  m_Name: DialogueLine_BeginnerQuestDone
+  m_EditorClassIdentifier: 
+  Lines:
+  - Great job, thank you!
+  - Go talk to the girl in front of the OXXO store for the next task.
+  ReplyOptions: []
+  QuestGiven: {fileID: 0}
+  QuestFinished: {fileID: 11400000, guid: d4c011683380546f1ab955b55e105e4f, type: 2}

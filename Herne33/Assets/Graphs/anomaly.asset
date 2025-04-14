@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: anomaly
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":"DeerState","summary":"Deer-specific state machine.","pan":{"x":-151.2506,"y":46.49958},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"isStart":true,"position":{"x":-443.0,"y":-132.0},"width":170.0,"guid":"81272630-639c-43ee-8e89-1054f0b02688","$version":"A","$type":"Unity.VisualScripting.FlowState","$id":"3"},{"nest":{"source":"Macro","macro":1,"embed":null},"isStart":false,"position":{"x":-166.0,"y":60.0},"width":170.0,"guid":"50a5a130-6fc8-4d39-b268-156a5bf0fb02","$version":"A","$type":"Unity.VisualScripting.FlowState","$id":"5"},{"nest":{"source":"Macro","macro":2,"embed":null},"source":{"$ref":"3"},"destination":{"$ref":"5"},"guid":"7f577c70-e9cb-464e-800d-931a68daf904","$version":"A","$type":"Unity.VisualScripting.FlowStateTransition"},{"nest":{"source":"Macro","macro":3,"embed":null},"source":{"$ref":"5"},"destination":{"$ref":"3"},"guid":"2634f4a4-1936-44dc-af8c-4382c00f1c8e","$version":"A","$type":"Unity.VisualScripting.FlowStateTransition"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7bcb00903acf44962bb8b206eaa12a97, type: 2}
+    - {fileID: 11400000, guid: abde8f3c762474d0984e02288d9036a8, type: 2}
+    - {fileID: 11400000, guid: 088aa4ce36a3549348adc858eb6fbb21, type: 2}
+    - {fileID: 11400000, guid: 460b2e58ca9b54203a5d758e8b484c52, type: 2}
