@@ -1,5 +1,68 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7326629619337014539
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c2a0ff44a297c4083246f72b8baae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _active: 1
+  _shader: {fileID: 4800000, guid: 2bf2830f83506eb4097cdebfd30a7bb8, type: 3}
+  _material: {fileID: 0}
+  _isActive: 0
+  _scaleLerp:
+    m_Curve:
+    - time: 0
+      value: 0.0049
+      inSlope: 0.0508
+      outSlope: 0.0508
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.742
+    - time: 1
+      value: 0.5095
+      inSlope: 3.6093
+      outSlope: 3.6093
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.1646
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _gridReveal: 0.45
+  _gridDiscrete: 1
+  _crisp: 0
+  _roundnessDefault: 1
+  _palette:
+    enabled: 0
+    value: {fileID: 0}
+  _paletteLast: 0
+  _crispLast: 0
+  _firstRun: 1
+--- !u!114 &-3221613962804077494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb609ae800d4ad4ea60345e8437077c, type: 3}
+  m_Name: Pixelation
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _event: 550
+  _pass: {fileID: -7326629619337014539}
+  _blitShader: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,6 +98,22 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 3302065f671a8450b82c9ddf07426f3a, type: 3}
   - {fileID: 2800000, guid: 56a77a3e8d64f47b6afe9e3c95cb57d5, type: 3}
   m_Shader: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
+--- !u!114 &-1765310832010804420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c741b05664b4a45998aa9f2424defc, type: 3}
+  m_Name: PixelizeFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 550
+    screenHeight: 256
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53,7 +132,8 @@ MonoBehaviour:
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  m_RendererFeatureMap: adc0de57c6d2eee5
+  - {fileID: -1765310832010804420}
+  m_RendererFeatureMap: adc0de57c6d2eee53cc3d8bb265b80e7
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
