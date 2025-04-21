@@ -6,6 +6,7 @@ This list of Scenes in the project will be updated whenever new lecture demos ar
 - Herne 33 demo: Vertical Slice project demo + W3 lecture demo.
 - W2 Demo: W2 lecture demo.
 - W2 Activty Answer: Possible solutions for W2 in-class activity.
+- W3 Demo: W3 lecture demo.
 - W3 Activty Answer: Possible solutions for W3 in-class activity.
 ## Open-source assets
 - [Classic skybox](https://assetstore.unity.com/packages/2d/textures-materials/sky/classic-skybox-24923) - skybox
@@ -19,3 +20,4 @@ This list of Scenes in the project will be updated whenever new lecture demos ar
 - [contarex camera shutter by tonik1105](https://freesound.org/people/Tonik1105/sounds/520684/) - camera shutter SFX
 - [wind-up1.aif by timgormly](https://freesound.org/people/timgormly/sounds/162801/) - focal distance adjustment SFX
 - [camera beep and click by theplax](https://freesound.org/people/theplax/sounds/624936/) - camera beep SFX
+- [Universal UI/Menu soundpack](https://cyrex-studios.itch.io/universal-ui-soundpack) - UI SFX
