@@ -21,3 +21,5 @@ This list of Scenes in the project will be updated whenever new lecture demos ar
 - [wind-up1.aif by timgormly](https://freesound.org/people/timgormly/sounds/162801/) - focal distance adjustment SFX
 - [camera beep and click by theplax](https://freesound.org/people/theplax/sounds/624936/) - camera beep SFX
 - [Universal UI/Menu soundpack](https://cyrex-studios.itch.io/universal-ui-soundpack) - UI SFX
+- [underwater creature 3](https://freesound.org/people/xinaesthete/sounds/121221/) - jellyfish SFX
+- [forest at night ambiance](https://freesound.org/people/timothyd4y/sounds/587907/) - deer SFX
