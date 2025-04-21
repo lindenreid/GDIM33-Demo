@@ -29,3 +29,4 @@ MonoBehaviour:
     nextNode: {fileID: 11400000, guid: 03df1c9000bcf4dffb444316815c67db, type: 2}
   QuestGiven: {fileID: 0}
   QuestFinished: {fileID: 0}
+  Audio: {fileID: 8300000, guid: 9aa2cf0b6c7564ffb8aecdf6d93dcf46, type: 3}

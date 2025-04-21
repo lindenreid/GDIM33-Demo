@@ -17,3 +17,4 @@ MonoBehaviour:
   ReplyOptions: []
   QuestGiven: {fileID: 11400000, guid: d4c011683380546f1ab955b55e105e4f, type: 2}
   QuestFinished: {fileID: 0}
+  Audio: {fileID: 8300000, guid: 4ff845012c0b94ffba1d0f0b3be81147, type: 3}
