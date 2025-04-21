@@ -31,7 +31,7 @@ public class PixelizePass : ScriptableRenderPass
         //cmd.GetTemporaryRT(pointBufferID, descriptor.width, descriptor.height, 0, FilterMode.Point);
         //pointBuffer = new RenderTargetIdentifier(pointBufferID);
 
-        pixelScreenHeight = settings.screenHeight;
+        pixelScreenHeight = descriptor.height / settings.screenHeight;
         pixelScreenWidth = (int)(pixelScreenHeight * renderingData.cameraData.camera.aspect + 0.5f);
 
         material.SetVector("_BlockCount", new Vector2(pixelScreenWidth, pixelScreenHeight));
