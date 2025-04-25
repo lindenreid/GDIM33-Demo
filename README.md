@@ -4,10 +4,11 @@ You can [play the Herne 33 demo on Itch.io here](https://outofmanna.itch.io/hern
 ## Scene guide
 This list of Scenes in the project will be updated whenever new lecture demos are added. This repository is NOT your in-class activity; it is the demo that went along with the lecture!
 - Herne 33 demo: Vertical Slice project demo + W3 lecture demo.
-- W2 Demo: W2 lecture demo.
+- W2 Demo: W2 lecture demo (visual scripting basics).
 - W2 Activty Answer: Possible solutions for W2 in-class activity.
-- W3 Demo: W3 lecture demo.
+- W3 Demo: W3 lecture demo (state machines).
 - W3 Activty Answer: Possible solutions for W3 in-class activity.
+- W5 Demo: W5 lecture demo (3D animation with Graphs).
 ## Open-source assets
 - [Classic skybox](https://assetstore.unity.com/packages/2d/textures-materials/sky/classic-skybox-24923) - skybox
 - [elbolilloduro](https://elbolilloduro.itch.io/) - various asset packs used for environment models, characters, & textures
@@ -24,3 +25,4 @@ This list of Scenes in the project will be updated whenever new lecture demos ar
 - [underwater creature 3](https://freesound.org/people/xinaesthete/sounds/121221/) - jellyfish SFX
 - [forest at night ambiance](https://freesound.org/people/timothyd4y/sounds/587907/) - deer SFX
 - [sneezing the dog](https://freesound.org/people/blukotek/sounds/424949/) - dog sneeze
+- [PSX high school character](https://sketchfab.com/3d-models/ps1-psx-high-school-character-d96f74f0dc6f49559083c110fef37e2f) - high school character from W4 demo
