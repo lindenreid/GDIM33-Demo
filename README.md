@@ -10,6 +10,20 @@ This list of Scenes in the project will be updated whenever new lecture demos ar
 - W3 Activty Answer: Possible solutions for W3 in-class activity.
 - W5 Demo: W5 lecture demo (3D animation with Graphs).
 - W6 Activity Answer: Intended solution for W6 in-class activity.
+## File link examples
+You can format your links like either of these examples. I prefer the first one because it's cleaner, but either way will recieve credit.
+- [Visual scripting graph](https://github.com/lindenreid/GDIM33-Demo/blob/main/Herne33/Assets/Graphs/anomalyIdle.asset)
+OR 
+Visual scripting graph: https://github.com/lindenreid/GDIM33-Demo/blob/main/Herne33/Assets/Graphs/anomalyIdle.asset
+### Milestone 1 files
+Here's an example of the assets you should have linked for Milestone 1.
+- [Visual scripting graph](https://github.com/lindenreid/GDIM33-Demo/blob/main/Herne33/Assets/Graphs/anomalyIdle.asset)
+- [Input actions asset](https://github.com/lindenreid/GDIM33-Demo/blob/main/Herne33/Assets/Input/playerInput.inputactions)
+- [Animation controller asset](https://github.com/lindenreid/GDIM33-Demo/blob/main/Herne33/Assets/Models/deer/source/DeerAnimator.controller)
+### Milestone 2 files
+Here's an example of the assets you should have linked for Milestone 2.
+- [State graph](https://github.com/lindenreid/GDIM33-Demo/blob/main/Herne33/Assets/Graphs/anomaly.asset)
+- [NavMesh asset](https://github.com/lindenreid/GDIM33-Demo/blob/main/Herne33/Assets/Scenes/Main/Main/NavMesh-NavMesh%20Surface.asset)
 ## Open-source assets
 - [Classic skybox](https://assetstore.unity.com/packages/2d/textures-materials/sky/classic-skybox-24923) - skybox
 - [elbolilloduro](https://elbolilloduro.itch.io/) - various asset packs used for environment models, characters, & textures
