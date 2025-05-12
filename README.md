@@ -47,3 +47,4 @@ Here's an example of the assets you should have linked for Milestone 3.
 - [sneezing the dog](https://freesound.org/people/blukotek/sounds/424949/) - dog sneeze
 - [PSX high school character](https://sketchfab.com/3d-models/ps1-psx-high-school-character-d96f74f0dc6f49559083c110fef37e2f) - high school character from W4 demo
 - [Shiba](https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c) - Shiba 3D model and textures
+- [PBR materials sample pack](https://assetstore.unity.com/packages/package/40112) - PBR material textures in W7 demo
