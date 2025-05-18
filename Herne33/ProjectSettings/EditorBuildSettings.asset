@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/W8/W8ActivityAnswers.unity
+    guid: 23b3fe93922554a69bd212cc45bf6d2a
+  - enabled: 1
     path: Assets/Scenes/Main/Main.unity
     guid: 4b9aa986760e244b4815d5027666a9eb
   m_configObjects: {}

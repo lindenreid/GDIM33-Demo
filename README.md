@@ -12,6 +12,8 @@ This list of Scenes in the project will be updated whenever new lecture demos ar
 - W6 Activity Answer: Intended solution for W6 in-class activity.
 - W7 Demo: W7 lecture demo (animated shader).
 - W7 Activity Answer: Intended solution for W7 in-class activity.
+- W8 Demo: W8 lecture demo (XRay renderer feature).
+- W8 Activity Answer: Intended solution for W7 in-class activity.
 ## File link examples
 You can format your links like either of these examples. I prefer the first one because it's cleaner, but either way will recieve credit.
 - [Visual scripting graph](https://github.com/lindenreid/GDIM33-Demo/blob/main/Herne33/Assets/Graphs/anomalyIdle.asset)
